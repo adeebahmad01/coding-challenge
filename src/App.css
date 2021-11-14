@@ -1,0 +1,89 @@
+.outer {
+  width: 100%;
+  background-image: url(./assets/itemSlider/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "Neris";
+  src: local("Neris"), url(./assets/fonts/Neris-Light.otf) format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Neris";
+  src: local("Neris"), url(./assets/fonts/Neris-Black.otf) format("woff");
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Neris", sans-serif;
+}
+
+.inner {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+}
+
+.item {
+  border-radius: 10px;
+  max-width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.socket {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #c4b494;
+}
+span {
+  font-weight: normal;
+}
+
+.container {
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.slider {
+  padding: 0 50px !important;
+}
+
+.swiper-slide {
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.active {
+  border-radius: 10px;
+  border: 2px solid #6e4f38;
+}

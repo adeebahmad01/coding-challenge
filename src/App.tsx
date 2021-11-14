@@ -65,7 +65,7 @@ function App() {
       <section className="outer">
         <div className="container">
           <Swiper
-            spaceBetween={20}
+            spaceBetween={5}
             slidesPerView={3}
             initialSlide={0}
             centeredSlides

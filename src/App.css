@@ -31,7 +31,7 @@
 .inner {
   position: relative;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .dot {
@@ -52,9 +52,9 @@
 
 .socket {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
-  width: 40px;
+  bottom: 10px;
+  right: 10px;
+  width: 20px;
 }
 
 h1 {
